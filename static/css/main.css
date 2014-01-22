@@ -1,0 +1,37 @@
+.loginform {
+  margin-top: 7%;
+}
+.check {
+  margin-top: 3%;
+}
+.form-check {
+  height: 60px;
+  font-size:30px;
+}
+#results {
+  margin-top:30px;
+}
+.panel {
+  border-width: 6px;
+}
+
+#map {
+  height: 400px;
+}
+.hidden {
+  display:none;
+}
+
+.lang a {
+  text-decoration: none;
+  border-bottom: 1px dashed #000080;
+  margin: 1px;
+}
+
+.lang a:hover {
+  color: #f00000;
+}
+
+#loading {
+  font-size:40px;
+}

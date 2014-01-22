@@ -1,0 +1,23 @@
+{
+  "descr": "Blocked in Russia helps journalists, researchers and activists check which websites is actualy blocked in Russia. This service is private for some reasons, if you want to get access (free of cost) — <a href='http://liberatetheweb.org/contacts'>write to us</a>.",
+  "exit-descr": "URL will be loaded via Tor exit nodes based in Russia and checked if it was censored (it take a lot of time).",
+  "authority": "Authority",
+  "isp": "ISP",
+  "base": "Base",
+  "date": "Date",
+  "footer": "Project by <a href='http://liberatetheweb.org'>Liberate the Web</a> and <a href='https://github.com/komachi'>Anton Nesterov</a>.",
+  "login": "Login",
+  "placeholder": "URL to check",
+  "logout": "logout",
+  "blocked": "Blocked",
+  "yes": "yes",
+  "no": "no",
+  "maybe": "maybe",
+  "dunno": "dunno",
+  "http-code": "HTTP code",
+  "not-banned": "Not in Russia's internet blacklist and not in Russia's piracy blacklist.",
+  "can-login": "You can now <a href='/'>login</a>.",
+  "login-login": "Login",
+  "password": "Password",
+  "save": "Save your login and password in a safe place."
+}

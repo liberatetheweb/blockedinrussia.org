@@ -1,0 +1,21 @@
+<a class="pull-right" href="/logout" data-l10n="logout">logout</a>
+<div class="row check">
+  <div class="col-md-10 col-md-offset-1 text-center">
+    <div class="page-header">
+      <h1>Blocked in Russia</h1>
+    </div>
+    <p class="text-muted" data-l10n="exit-descr">URL will be loaded via Tor exit nodes based in Russia and checked if it was censored (it take a lot of time).</p>
+    <form id="form">
+      <input class="form-control input-lg" placeholder="URL to check" autofocus="autofocus" type="text" id="input" />
+    </form>
+  </div>
+</div>
+<div class="text-center"><span id="loading" ></span></div>
+<div class="row text-center hidden" id="blocked">
+  <div class="col-md-10 col-md-offset-1">
+    <div class="alert" id="registry"></div>
+  </div>
+</div>
+<div class="row" id="results">
+</div>
+<div id="map"></div>

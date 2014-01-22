@@ -1,0 +1,36 @@
+$def with (content)
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Blocked in Russia</title>
+    <meta name="viewport" content="width=device-width">
+    <link href="https://netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css" rel="stylesheet">
+    <link href="/static/css/main.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.1/leaflet.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.0/leaflet.awesome-markers.css" />
+    <link rel="localization" hreflang="ru" href="/static/locales/ru.json" type="application/vnd.oftn.l10n+json"/>
+    <link rel="localization" hreflang="en" href="/static/locales/en.json" type="application/vnd.oftn.l10n+json"/>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.0/jquery.cookie.min.js"></script>
+    <script type="text/javascript" src="/static/js/l10n.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.1/leaflet.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.0/leaflet.awesome-markers.min.js"></script>
+    <script type="text/javascript" src="/static/js/main.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <span class="lang">
+        <a id="en">en</a>
+        <a id="ru">ru</a>
+      </span>
+$:content
+      <footer class="text-center">
+        <hr />
+        <p data-l10n="footer">Project by <a href="http://liberatetheweb.org">Liberate the Web</a> and <a href="https://github.com/komachi">Anton Nesterov</a>.</p>
+      </footer>
+    </div>
+  </body>
+</html>

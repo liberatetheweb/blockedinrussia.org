@@ -1,0 +1,20 @@
+$def with (error)
+<div class="row loginform">
+  <div class="col-md-4 col-md-offset-4 text-center">
+$if error:
+    <div class="alert alert-danger">$error</div>
+<div class="page-header">
+  <h1>Blocked in Russia</h1>
+</div>
+<p class="text-muted" data-l10n="descr">Blocked in Russia helps journalists, researchers and activists check which websites is actualy blocked in Russia. This service is private for some reasons, if you want to get access (free of cost) — <a href="http://liberatetheweb.org/contacts">write to us</a>.</p>
+    <form role="form" method="POST">
+      <div class="form-group">
+        <input type="text" class="form-control" name="username">
+      </div>
+      <div class="form-group">
+        <input type="password" class="form-control" name="password">
+      </div>
+      <button type="submit" class="btn btn-primary btn-block" data-l10n="login">Login</button>
+    </form>
+  </div>
+</div>
